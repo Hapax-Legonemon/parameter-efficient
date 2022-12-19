@@ -58,6 +58,7 @@ We used a Nvidia DGX-1 station for training, with 4 GPUS V100. However, you do n
 ## Ours Results
 To save the results of all experiments, as well as the settings made, hardware data, training log, etc. We use the services of the website https://wandb.ai.
 
+
 ### AUCROC Curve - HMD Dataset
 ![image](https://user-images.githubusercontent.com/120152766/208498812-25091b93-a2f4-43a4-b5b3-a98385183bfe.png)
 
