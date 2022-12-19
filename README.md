@@ -65,11 +65,21 @@ To save the results of all experiments, as well as the settings made, hardware d
 ### Loss Curve - HMD Dataset
 ![image](https://user-images.githubusercontent.com/120152766/208498900-f837c340-85a4-4697-b79f-9e1f2e5eac10.png)
 
+The training logs of the first experiment are in the files:
+* HMD-FC-output.log
+* HMD-Full-FT-output.log
+* HMD-PE-output.log
 
+### AUCROC Curve - MMH Dataset
+![image](https://user-images.githubusercontent.com/120152766/208502803-4eb04383-d367-4ed7-9c12-a9e4017640a9.png)
 
+### Loss Curve - MMH Dataset
+![image](https://user-images.githubusercontent.com/120152766/208502975-d1a7e8c7-cfba-4c40-be19-7daec9fbf1db.png)
 
-
-
+The training logs of the second experiment are in the files:
+* MMH-FC-output.log
+* MMH-Full-FT-output.log
+* MMH-PE-output.log
 
 
 
