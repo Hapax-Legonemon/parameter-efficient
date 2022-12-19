@@ -6,6 +6,7 @@ In this repository you will find the necessary information to replicate the expe
 
 *  Environment of the experiments.
 *  Datasets.
+*  Model
 *  Hardware used.
 *  Training logs.
 
@@ -19,4 +20,11 @@ The necessary information for installing and configuring this framework can be f
 
 
 ## Datasets
-Two datasets were used during the experiments, the first was HMD, which is already integrated into the framework. The second MMH dataset, not part of the framework, had to be integrated. The necessary configuration files used for this integration are available in the xxxxx folder.
+Two datasets were used during the experiments, the first was HMD, which is already integrated into the framework. The second MMH dataset, not part of the framework, had to be integrated. More details about this process found in https://mmf.sh/docs/tutorials/dataset.
+
+### Datasets downloads:
+
+HMD dataset can be downloaded from https://hatefulmemeschallenge.com/
+MMH dataset can be downloaded from https://www.kaggle.com/datasets/victorcallejasf/multimodal-hate-speech
+
+
