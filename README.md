@@ -33,3 +33,10 @@ Two datasets were used during the experiments, the first was HMD, which is alrea
 ![image](https://user-images.githubusercontent.com/120152766/208430966-1b6de459-18fc-404c-8eac-69573d250ca1.png)
 
 More detail about models check the link https://mmf.sh/docs/notes/model_zoo
+
+
+### How include parameter-efficient block in the VisualBERT model?
+To include the PE blocks in the VisualBERT model, follow the sequence below:
+
+* After install MMF, go to folder /home/youruser/anaconda3/envs/mmf/lib/python3.7/site-packages/transformers/models/bert, and change the file modeling_bert.py. 
+
