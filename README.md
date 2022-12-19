@@ -8,6 +8,7 @@ In this repository you will find the necessary information to replicate the expe
 *  Datasets.
 *  Model.
 *  Hardware used.
+*  Tips
 *  Training logs.
 
 ## Environment of the experiments
@@ -40,13 +41,18 @@ To include the PE blocks in the VisualBERT model, follow the sequence below:
 
 * After install MMF, go to folder /home/youruser/anaconda3/envs/mmf/lib/python3.7/site-packages/transformers/models/bert, and change the file modeling_bert.py. The modifications are in the classes. class BertOutput(nn.Module) and class AdaptBertOutput(nn.Module) in this repository there is this file already modified.
 
-* Change the file  /home/youruser/mmf/mmf/models/vilbert.py by the file in this repository
+* Change the file  /home/youruser/mmf/mmf/models/vilbert.py by the file in this repository.
 
         
 ## Hardware
 We used a Nvidia DGX-1 station for training, with 4 GPUS V100. However, you do not need such a machine to perform the experiments. With an 8GB GPU (eg GTX 1080), and reducing the batch size, you can reproduce our results.
 
 
+## Tips
+
+* First use the HMD dataset, do the 3 types of training. Then start working with the MMH dataset.
+* Follow the command line contained in the visualbert.sh file, there are the necessary commands to perform the training.
+* The VisualBERT model needs text data, and image regions that contain objects. This second part, for the MMH dataset must be generated. Information on how to extract this information from the meme image can be found at https://mmf.sh/docs/tutorials/image_feature_extraction.
 
 
 
