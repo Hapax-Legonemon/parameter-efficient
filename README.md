@@ -32,4 +32,4 @@ Two datasets were used during the experiments, the first was HMD, which is alrea
 
 ![image](https://user-images.githubusercontent.com/120152766/208430966-1b6de459-18fc-404c-8eac-69573d250ca1.png)
 
-Mode detail about models check the link https://mmf.sh/docs/notes/model_zoo
+More detail about models check the link https://mmf.sh/docs/notes/model_zoo
