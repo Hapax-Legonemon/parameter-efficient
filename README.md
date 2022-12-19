@@ -38,5 +38,12 @@ More detail about models check the link https://mmf.sh/docs/notes/model_zoo
 ### How include parameter-efficient block in the VisualBERT model?
 To include the PE blocks in the VisualBERT model, follow the sequence below:
 
-* After install MMF, go to folder /home/youruser/anaconda3/envs/mmf/lib/python3.7/site-packages/transformers/models/bert, and change the file modeling_bert.py. 
+* After install MMF, go to folder /home/youruser/anaconda3/envs/mmf/lib/python3.7/site-packages/transformers/models/bert, and change the file modeling_bert.py. The modifications are in the classes. class BertOutput(nn.Module) and class AdaptBertOutput(nn.Module) in this repository there is this file already modified.
+
+* Change the file  /home/youruser/mmf/mmf/models/vilbert.py by the file in this repository
+
+        
+                    
+
+
 
