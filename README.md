@@ -95,6 +95,10 @@ fine tuning. In Full-Fine Tuning mode, that is, leaving all
 model parameters unfrozen, this approach produced very close
 results, see Table II.
 
+**Align center:**
+<p align="center" width="100%">
+    <img width="33%" src="[https://i.stack.imgur.com/RJj4x.png](https://user-images.githubusercontent.com/120152766/209111278-91f4939f-dccc-4364-ac9e-94bfb1c0a44c.png)">
+</p>
 
 ![image](https://user-images.githubusercontent.com/120152766/209111278-91f4939f-dccc-4364-ac9e-94bfb1c0a44c.png)
 ![image](https://user-images.githubusercontent.com/120152766/209111175-385596c8-7e16-4c3a-835f-0929e9c3704b.png)
