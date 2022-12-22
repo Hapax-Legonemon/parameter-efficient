@@ -97,7 +97,7 @@ results, see Table II.
 
 **Align center:**
 <p align="center" width="100%">
-    <img width="33%" src="[https://i.stack.imgur.com/RJj4x.png](https://user-images.githubusercontent.com/120152766/209111278-91f4939f-dccc-4364-ac9e-94bfb1c0a44c.png)">
+    <img width="33%" src="![image](https://user-images.githubusercontent.com/120152766/209111278-91f4939f-dccc-4364-ac9e-94bfb1c0a44c.png)">
 </p>
 
 ![image](https://user-images.githubusercontent.com/120152766/209111278-91f4939f-dccc-4364-ac9e-94bfb1c0a44c.png)
