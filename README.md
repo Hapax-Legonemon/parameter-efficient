@@ -82,3 +82,29 @@ The training logs of the second experiment are in the files:
 * MMH-PE-output.log
 
 ## Conclusion
+![image](https://user-images.githubusercontent.com/120152766/209111278-91f4939f-dccc-4364-ac9e-94bfb1c0a44c.png)
+![image](https://user-images.githubusercontent.com/120152766/209111175-385596c8-7e16-4c3a-835f-0929e9c3704b.png)
+
+The Parameter-Efficient approach, which was initially used
+in monomodal models for text, and expanded in this work
+to multimodal models that use text and image to detect hate
+speech in memes, achieved positive results. The introduction
+of these small blocks of parameters into the encoder structure
+improved the performance of the model. This was achieved
+by achieving a gain of 21% for the HMD dataset and 12.5%
+for the MMH, when compared to the traditional method of
+fine tuning. In Full-Fine Tuning mode, that is, leaving all
+model parameters unfrozen, this approach produced very close
+results, see Table II. When compared to the state of the art
+in meme classification, it managed to nearly match the MMH
+dataset, with 98.6% of the value. It also comes close to the
+HMD dataset, with 84.7% of the value. With these results
+and with the reduction in computational resources to generate
+them, since there was a 98% reduction in the total parameters
+to be trained, see Table I. This approach achieves the objective
+of being able to be used in online systems for detection
+of hate speech in memes. In future works, we will explore
+the positive effect of this approach on combating Data Shift,
+that is, the change in data content over time. This is a very
+common situation for memes, with their content being affected
+by seasonal events.
