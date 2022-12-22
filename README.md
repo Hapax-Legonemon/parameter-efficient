@@ -82,8 +82,6 @@ The training logs of the second experiment are in the files:
 * MMH-PE-output.log
 
 ## Conclusion
-![image](https://user-images.githubusercontent.com/120152766/209111278-91f4939f-dccc-4364-ac9e-94bfb1c0a44c.png)
-![image](https://user-images.githubusercontent.com/120152766/209111175-385596c8-7e16-4c3a-835f-0929e9c3704b.png)
 
 The Parameter-Efficient approach, which was initially used
 in monomodal models for text, and expanded in this work
@@ -95,7 +93,13 @@ by achieving a gain of 21% for the HMD dataset and 12.5%
 for the MMH, when compared to the traditional method of
 fine tuning. In Full-Fine Tuning mode, that is, leaving all
 model parameters unfrozen, this approach produced very close
-results, see Table II. When compared to the state of the art
+results, see Table II.
+
+
+![image](https://user-images.githubusercontent.com/120152766/209111278-91f4939f-dccc-4364-ac9e-94bfb1c0a44c.png)
+![image](https://user-images.githubusercontent.com/120152766/209111175-385596c8-7e16-4c3a-835f-0929e9c3704b.png)
+
+ When compared to the state of the art
 in meme classification, it managed to nearly match the MMH
 dataset, with 98.6% of the value. It also comes close to the
 HMD dataset, with 84.7% of the value. With these results
