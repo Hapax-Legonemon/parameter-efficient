@@ -43,11 +43,6 @@ To include the PE blocks in the VisualBERT model, follow the sequence below:
 
 * Change the file  /home/youruser/mmf/mmf/models/vilbert.py by the file in this repository.
 
-        
-## Hardware
-We used a Nvidia DGX-1 station for training, with 4 GPUS V100. However, you do not need such a machine to perform the experiments. With an 8GB GPU (eg GTX 1080), and reducing the batch size, you can reproduce our results.
-
-
 ## Tips
 
 * First use the HMD dataset, do the 3 types of training. Then start working with the MMH dataset.
