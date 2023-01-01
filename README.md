@@ -85,6 +85,13 @@ The training logs of the second experiment are in the files:
 |      VilBERT-Full-FT | 247780354 | 247780354 |       0 |           0 |
 |           VilBERT-PE | 250451446 |   3724790 | 2671092 |      1.07\% |
 
+The structure of the parameter-efficient block has a total of
+1.410.960 parameters for VisualBERT and, 2.671.092 param-
+eters for VilBERT, representing an increase of 1.24% in the
+total parameters of the VisualBERT model and 1.07% from
+VilBERT model. The addition of PE blocks to the model
+did not have a significant impact on the model parameter’s
+quantity. A summary of these data can be seen in Table I.
 ## Conclusion
 
 The Parameter-Efficient approach, which was initially used
