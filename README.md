@@ -76,6 +76,15 @@ The training logs of the second experiment are in the files:
 * MMH-Full-FT-output.log
 * MMH-PE-output.log
 
+| Parameters Variation |   Total   |  Trained  |    PE   | \% Increase |
+|:--------------------:|:---------:|:---------:|:-------:|:-----------:|
+|        VisualBERT-FC | 112044290 |    593666 |       0 |           0 |
+|   VisualBERT-Full-FT | 112044290 | 112044290 |       0 |           0 |
+|        VisualBERT-PE | 113455250 |   2004626 | 1410960 |      1.24\% |
+|           VilBERT-FC | 247780354 |   1053698 |       0 |           0 |
+|      VilBERT-Full-FT | 247780354 | 247780354 |       0 |           0 |
+|           VilBERT-PE | 250451446 |   3724790 | 2671092 |      1.07\% |
+
 ## Conclusion
 
 The Parameter-Efficient approach, which was initially used
