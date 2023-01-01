@@ -76,6 +76,16 @@ The training logs of the second experiment are in the files:
 * MMH-Full-FT-output.log
 * MMH-PE-output.log
 
+
+## Conclusion
+
+The Parameter-Efficient approach, which was initially used
+in monomodal models for text, and expanded in this work
+to multimodal models that use text and image to detect hate
+speech in memes, achieved positive results. The introduction
+of these small blocks of parameters into the encoder structure
+improved the performance of the model.
+
 | Parameters Variation |   Total   |  Trained  |    PE   | \% Increase |
 |:--------------------:|:---------:|:---------:|:-------:|:-----------:|
 |        VisualBERT-FC | 112044290 |    593666 |       0 |           0 |
@@ -86,28 +96,21 @@ The training logs of the second experiment are in the files:
 |           VilBERT-PE | 250451446 |   3724790 | 2671092 |      1.07\% |
 
 The structure of the parameter-efficient block has a total of
-1.410.960 parameters for VisualBERT and, 2.671.092 param-
-eters for VilBERT, representing an increase of 1.24% in the
+1.410.960 parameters for VisualBERT and, 2.671.092 parameters
+for VilBERT, representing an increase of 1.24% in the
 total parameters of the VisualBERT model and 1.07% from
 VilBERT model. The addition of PE blocks to the model
 did not have a significant impact on the model parameter’s
 quantity. A summary of these data can be seen in Table I.
-## Conclusion
 
-The Parameter-Efficient approach, which was initially used
-in monomodal models for text, and expanded in this work
-to multimodal models that use text and image to detect hate
-speech in memes, achieved positive results. The introduction
-of these small blocks of parameters into the encoder structure
-improved the performance of the model. This was achieved
-by achieving a gain of 21% for the HMD dataset and 12.5%
+
+
+This was achieved by achieving a gain of 21% for the HMD dataset and 12.5%
 for the MMH, when compared to the traditional method of
 fine tuning. In Full-Fine Tuning mode, that is, leaving all
 model parameters unfrozen, this approach produced very close
 results, see Table II.
 
-![image](https://user-images.githubusercontent.com/120152766/209111278-91f4939f-dccc-4364-ac9e-94bfb1c0a44c.png)
-![image](https://user-images.githubusercontent.com/120152766/209111175-385596c8-7e16-4c3a-835f-0929e9c3704b.png)
 
  When compared to the state of the art
 in meme classification, it managed to nearly match the MMH
